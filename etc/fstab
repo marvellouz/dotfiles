@@ -1,0 +1,15 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+devpts                 /dev/pts      devpts    defaults            0      0
+shm                    /dev/shm      tmpfs     nodev,nosuid        0      0
+/dev/sda2 / ext3 defaults 0 1
+/dev/sda5 swap swap defaults 0 0
+/dev/sda6 /home ext3 defaults,user_xattr 0 1
+/dev/sda7 /mnt/sda7 ext3 defaults 0 1
+
+/dev/sda1 /mnt/sda1 ntfs users,umask=0000,rw,exec 0 1
+/dev/sda3 /mnt/sda3 ntfs users,umask=0000,rw,exec 0 1
+/dev/sda3 /mnt/sda7 ntfs users,umask=0000,rw,exec 0 1
+#78.90.105.27:/ /mnt/pc nfs defaults 0 0
