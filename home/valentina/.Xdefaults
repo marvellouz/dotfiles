@@ -1,0 +1,61 @@
+URxvt*font:           	xft:Bitstream Vera Sans Mono:size=9
+URxvt*saveLines: 	    10000
+urxvt*scrollBar: 	    true
+urxvt*internalBorder:	3
+URxvt.perl-ext-common: 	default,tabbed
+
+urxvt*background:      	black
+urxvt*foreground:      	white
+
+! :Bind C-0, C-+ and C-= to activate small, medium, and big font size resp.     
+URxvt.keysym.C-0: command:\033]710;-*-dina-medium-r-normal--13-*-*-*-*-*-*-*\007
+URxvt.keysym.C-minus: command:\033]710;-*-dina-medium-r-normal--15-*-*-*-*-*-*-*\007
+URxvt.keysym.C-equal: command:\033]710;-*-dina-medium-r-normal--16-*-*-*-*-*-*-*\007
+
+!*color0: #4E4E4E
+!*color8: #7C7C7C
+!*color1: #FF6C60
+!*color9: #FFB6B0
+!*color2: #A8FF60
+!*color10: #CEFFAB
+!*color3: #FFFFB6
+!*color11: #FFFFCB
+!*color4: #96CBFE
+!*color12: #FFFFCB
+!*color5: #FF73FD
+!*color13: #FF9CFE
+!*color6: #C6C5FE
+!*color14: #DFDFFE
+!*color7: #EEEEEE
+!*color15: #FFFFFF
+
+
+!Vim*background:        white
+! tangoesque scheme
+*background: #111111
+*foreground: #babdb6
+! Black (not tango) + DarkGrey
+*color0:  #000000
+*color8:  #555753
+! DarkRed + Red
+*color1:  #FF282B
+*color9:  #ff0000
+! ff8d8d
+! DarkGreen + Green
+*color2:  #CC2424
+*color10: #c8e7a8
+! DarkYellow + Yellow
+*color3:  #eab93d
+*color11: #ffc123
+! DarkBlue + Blue
+*color4:  #204a87
+*color12: #3465a4
+! DarkMangenta + Mangenta
+*color5:  #ce5c00
+*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+*color6:  #89b6e2
+*color14: #46a4ff
+! LightGrey + White
+*color7:  #cccccc
+*color15: #ffffff
