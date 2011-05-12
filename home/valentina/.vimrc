@@ -24,3 +24,6 @@ let g:EclimHome = '/usr/share/vim/vimfiles/eclim'
 let g:EclimEclipseHome = '/usr/share/eclipse'
 set nocompatible
 set encoding=utf8
+
+"Map NERDTree to \p
+nmap <silent> <Leader>p :NERDTreeToggle<CR>
